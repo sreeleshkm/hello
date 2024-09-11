@@ -2,6 +2,6 @@
 
 int main()
 {
-    Printf("Program started\n");
+    printf("Program started\n");
     return 0; 
 }
