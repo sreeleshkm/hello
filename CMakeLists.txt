@@ -1,17 +1,9 @@
 cmake_minimum_required(VERSION 3.0)
 
-project(PERSONAL_DETAILS)
+project(MULTI_THREAD)
 
-if(WIN32) 
-    message(STATUS ">>> Windows")
-    set(CMAKE_C_COMPILER gcc)
-    # linux stuff here
-elseif(UNIX)
-    message(STATUS ">>> Linux")
-    set(CMAKE_C_COMPILER arm-linux-gnueabihf-gcc)
-    # stuff that should happen not on Linux 
-endif()
+set(CMAKE_CXX_COMPILER g++)
 
-set (SOURCE main.c)
+set (SOURCE main.cpp)
 
-add_executable(${PROJECT_NAME} ${SOURCE})
+add_executable(multiThread ${SOURCE})
