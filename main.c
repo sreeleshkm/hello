@@ -15,6 +15,5 @@ int main()
     printf("Sub = %d\n", c);
 
     // Progaram end
-    printf("Program end\n");
     return 0; 
 }
