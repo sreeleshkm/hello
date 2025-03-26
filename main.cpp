@@ -78,5 +78,7 @@ bool exceedTime(uint32 lTimeDif, time_t &ulPrevTime)
         cout << "Unix time : " << ulCurTime << endl;
     }
 
+    printf("Prgram End");
+
     return blDelayTime;
 }
