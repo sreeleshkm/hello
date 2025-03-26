@@ -7,8 +7,12 @@ int main()
     int a = 10;
     int b = 20;
 
-    printf("A = %d", a);
-    printf("B = %d", b);
+    printf("A = %d\n", a);
+    printf("B = %d\n", b);
+
+    int c = a + b;
+
+    printf("Sub = %d\n", c);
 
     return 0; 
 }
