@@ -1,9 +1,9 @@
 cmake_minimum_required(VERSION 3.0)
 
-project(MULTI_THREAD)
+project(HELLO)
 
-set(CMAKE_CXX_COMPILER g++)
+set(CMAKE_C_COMPILER gcc)
 
-set (SOURCE main.cpp)
+set (SOURCE main.c)
 
-add_executable(multiThread ${SOURCE})
+add_executable(hello ${SOURCE})

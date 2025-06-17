@@ -12,9 +12,9 @@ int main()
 
     int c = a + b;
 
-    printf("Sub = %d\n", c);
+    printf("Add = %d\n", c);
 
     // Progaram end
-    printf("Prgaram Endd..");
+    printf("Program End");
     return 0; 
 }
